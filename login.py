@@ -3,7 +3,6 @@ from PyQt5 import QtWidgets
 import sqlite3 as sql
 
 class Pencere(QtWidgets.QWidget):
-
     def __init__(self):
         super().__init__()
         self.init_ui()
